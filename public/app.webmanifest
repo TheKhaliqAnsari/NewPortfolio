@@ -1,0 +1,27 @@
+{
+  "name": "Himanshu Singla - Full Stack Developer",
+  "short_name": "Himanshu",
+  "start_url": "./",
+  "orientation": "any",
+  "theme_color": "#0d43a0",
+  "scope": "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "himanshu_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "himanshu_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "himanshu_maskable_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purposes": "maskable"
+    }
+  ]
+}
