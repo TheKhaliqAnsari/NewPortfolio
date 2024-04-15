@@ -1,0 +1,14 @@
+
+.custom-slick-arrow {
+  color: #013437; 
+  font-size: 24px;
+  height: auto;
+  width: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+.projects-slider-container .slick-slide {
+  padding: 1rem; 
+}

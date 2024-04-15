@@ -66,7 +66,7 @@ function Hero() {
         initial="hidden"
         animate="visible"
         variants={textVariants}
-        className="text-white max-w-lg"
+        className="text-white max-w-lg ml-10 mt-20"
       >
         <motion.h4 variants={textVariants}>Hi, My name is</motion.h4>
         <motion.h2
@@ -100,9 +100,9 @@ function Hero() {
         className="mt-8 md:mt-0"
       >
         <img
-          src="mainimage.png"
+          src="hero-image.svg"
           alt="Khaliq Ansari"
-          className="w-full md:max-w-md lg:max-w-lg"
+          className="w-full h-screen md:max-w-md lg:max-w-lg"
         />
       </motion.div>
     </div>

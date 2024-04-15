@@ -3,7 +3,7 @@ import { skills } from './data';
 import { motion } from 'framer-motion';
 
 function Skills() {
-  const [showAll, setShowAll] = useState(false);
+  const [showAll, setShowAll] = useState(true);
   const initialDisplayCount = 4; // Change this to display more or less skills initially
   const displayedSkills = showAll ? skills : skills.slice(0, initialDisplayCount);
 
